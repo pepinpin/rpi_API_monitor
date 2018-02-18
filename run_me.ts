@@ -1,5 +1,9 @@
 import { Client } from 'node-rest-client'
+<<<<<<< HEAD
 import * as config from './CONFIG.json'; // don't worry about the 'cannot find the module' error
+=======
+import * as config from "./CONFIG.json"; // don't worry about the 'cannot find the module' error
+>>>>>>> 92282922cb732bd1ae4e8921c863c37129494112
 
 // set this to false to avoid logs
 // and run in 'production' mode
@@ -53,7 +57,7 @@ function isAPIalive(): boolean {
         args,
         (data, response) => {
             log(data);
-            if(data.response === config.API.EXPECTED_RESPONSE)
+            if(data.response = config.API.EXPECTED_RESPONSE)
             isAlive = true;
         });
 
