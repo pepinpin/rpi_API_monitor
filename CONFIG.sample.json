@@ -1,9 +1,0 @@
-{
-  "DEBUG_MODE": false,
-  "RUN_FOREVER": true,
-  "DELAY": 2000,
-  "API" : {
-    "URL": "http://some-api.com:9876/api/v1/ping",
-    "EXPECTED_RESPONSE": "PONG"
-  }
-}
