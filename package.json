@@ -1,0 +1,23 @@
+{
+  "name": "rpi_api_monitor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "run_me.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pepinpin/rpi_API_monitor.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pepinpin/rpi_API_monitor/issues"
+  },
+  "homepage": "https://github.com/pepinpin/rpi_API_monitor#readme",
+  "dependencies": {
+    "node-rest-client": "^3.1.0",
+    "raspi": "^5.0.1"
+  }
+}
