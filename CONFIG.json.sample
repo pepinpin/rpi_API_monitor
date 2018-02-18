@@ -1,9 +1,16 @@
 {
   "DEBUG_MODE": false,
-  "RUN_FOREVER": true,
-  "DELAY": 2000,
+  "PARALLEL_TRIES": 3,
+  "ERRORS":{
+    "MAX_FAILED_BEFORE_ALERT": 3
+  },
+  "RUN_FOREVER": {
+    "ACTIVATED": true,
+    "DELAY": 2000
+  },
   "API" : {
     "URL": "http://some-api.com:9876/api/v1/ping",
+    "EXPECTED_STATUS_CODE": 418,
     "EXPECTED_RESPONSE": "PONG"
   }
 }
